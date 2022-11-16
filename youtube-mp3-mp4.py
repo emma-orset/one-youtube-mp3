@@ -3,7 +3,7 @@ from os import listdir
 from os.path import isfile, join
 
 #Mettre le chemin du dossier où vous souhaitez mettre vos musiques
-path="C:/Users/emmao/OneDrive/Documents/pytube/"
+path="/pytube/"
 fichiers = [f for f in listdir(path) if isfile(join(path, f))]
 qualities = ["360p","480p","720p","1080p"]
 
